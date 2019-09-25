@@ -37,7 +37,7 @@ array.collect do |y|
   if y == array[1]
     y
   else y + "s"
-end
+  end
 end
 end
 
