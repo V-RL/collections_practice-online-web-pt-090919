@@ -33,7 +33,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  while array != array[1]
+
   array << "s"
 
 end
