@@ -42,7 +42,7 @@ end
 def kesha_maker(array)
   array.collect do |x|
     binding.pry
-    x = array[2] << "$"
+    x << "$"
   end
     
 end
