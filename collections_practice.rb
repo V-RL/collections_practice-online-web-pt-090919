@@ -41,7 +41,7 @@ end
 
 def kesha_maker(array)
   array.collect do |x|
-    array.sub
+    array.sub(x[2], "$")
   end
     
 end
