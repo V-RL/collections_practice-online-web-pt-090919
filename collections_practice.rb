@@ -40,9 +40,8 @@ end
 end
 
 def kesha_maker(array)
-  array.collect do |x|
-    array.sub(x[2], "$")
-    return array
+  array.each do |x|
+    x[2] = "$"
   end
     
 end
