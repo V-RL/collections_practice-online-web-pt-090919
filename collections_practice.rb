@@ -41,7 +41,6 @@ end
 
 def kesha_maker(array)
   array.collect do |x|
-    binding.pry
     array.sub
   end
     
