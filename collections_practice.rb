@@ -33,11 +33,13 @@ def sum_array(array)
 end
 
 def add_s(array)
-
-  array << "s"
-
+array.collect do |y|
+  if y == array[1]
+    y
+  else y + "s"
 end
-
+end
+end
 
 def kesha_maker(array)
   array.each do |x|
